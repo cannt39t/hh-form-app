@@ -101,6 +101,11 @@ final class SFMainCell: BaseCollectionViewCell {
     
     func setImageProfile(_ image: UIImage) {
         profileImage.image = image
+        
+        profileImage.layer.cornerRadius = profileImage.bounds.height / 2
+        profileImage.layer.masksToBounds = true
+        
+        layoutIfNeeded()
     }
 }
 
