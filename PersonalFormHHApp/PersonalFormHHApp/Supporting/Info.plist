@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Для использования камеры в приложении необходим доступ к вашей камере, чтобы вы могли делать фотографии и видеозаписи.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Для загрузки фотографий в приложении необходим доступ к вашей фотобиблиотеке.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Для использования микрофона в приложении необходим доступ к вашему микрофону, чтобы вы могли делать видеозаписи с аудио.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Данное приложение использует ваше местоположение для определения города, в котором вы находитесь.</string>
+
+	<key>UIApplicationSceneManifest</key>
+    
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>
