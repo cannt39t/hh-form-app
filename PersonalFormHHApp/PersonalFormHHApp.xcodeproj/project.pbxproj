@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05378F592A7C1B0C009C19FF /* PersonalDataModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05378F542A7C1B0C009C19FF /* PersonalDataModuleBuilder.swift */; };
+		05378F5A2A7C1B0C009C19FF /* PersonalDataPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05378F552A7C1B0C009C19FF /* PersonalDataPresenter.swift */; };
+		05378F5B2A7C1B0C009C19FF /* PersonalDataRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05378F562A7C1B0C009C19FF /* PersonalDataRouter.swift */; };
+		05378F5C2A7C1B0C009C19FF /* PersonalDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05378F572A7C1B0C009C19FF /* PersonalDataViewController.swift */; };
+		05378F5D2A7C1B0C009C19FF /* PersonalDataInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05378F582A7C1B0C009C19FF /* PersonalDataInteractor.swift */; };
+		05378F5F2A7C1DEC009C19FF /* SFPersonalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05378F5E2A7C1DEC009C19FF /* SFPersonalData.swift */; };
+		05378F612A7C1DF7009C19FF /* SFAbout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05378F602A7C1DF7009C19FF /* SFAbout.swift */; };
 		053FB7A52A792129005C4A7A /* SFMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053FB7A42A792129005C4A7A /* SFMainCell.swift */; };
 		053FB7A72A7935B9005C4A7A /* SFSkillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053FB7A62A7935B9005C4A7A /* SFSkillCell.swift */; };
 		053FB7A92A794729005C4A7A /* SFAboutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053FB7A82A794729005C4A7A /* SFAboutCell.swift */; };
-		0574B9822A79644300EAF14C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0574B9812A79644300EAF14C /* MainViewController.swift */; };
 		0574B9842A798D6400EAF14C /* UIImage + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0574B9832A798D6300EAF14C /* UIImage + ext.swift */; };
 		0574B9862A79936E00EAF14C /* UIImagePickerController + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0574B9852A79936E00EAF14C /* UIImagePickerController + ext.swift */; };
 		0574B9882A7996B600EAF14C /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0574B9872A7996B600EAF14C /* BaseButton.swift */; };
@@ -32,10 +38,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05378F542A7C1B0C009C19FF /* PersonalDataModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataModuleBuilder.swift; sourceTree = "<group>"; };
+		05378F552A7C1B0C009C19FF /* PersonalDataPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataPresenter.swift; sourceTree = "<group>"; };
+		05378F562A7C1B0C009C19FF /* PersonalDataRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataRouter.swift; sourceTree = "<group>"; };
+		05378F572A7C1B0C009C19FF /* PersonalDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataViewController.swift; sourceTree = "<group>"; };
+		05378F582A7C1B0C009C19FF /* PersonalDataInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataInteractor.swift; sourceTree = "<group>"; };
+		05378F5E2A7C1DEC009C19FF /* SFPersonalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFPersonalData.swift; sourceTree = "<group>"; };
+		05378F602A7C1DF7009C19FF /* SFAbout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFAbout.swift; sourceTree = "<group>"; };
 		053FB7A42A792129005C4A7A /* SFMainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFMainCell.swift; sourceTree = "<group>"; };
 		053FB7A62A7935B9005C4A7A /* SFSkillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSkillCell.swift; sourceTree = "<group>"; };
 		053FB7A82A794729005C4A7A /* SFAboutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFAboutCell.swift; sourceTree = "<group>"; };
-		0574B9812A79644300EAF14C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0574B9832A798D6300EAF14C /* UIImage + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage + ext.swift"; sourceTree = "<group>"; };
 		0574B9852A79936E00EAF14C /* UIImagePickerController + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImagePickerController + ext.swift"; sourceTree = "<group>"; };
 		0574B9872A7996B600EAF14C /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
@@ -69,6 +81,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05378F532A7C1AFE009C19FF /* PersonalData */ = {
+			isa = PBXGroup;
+			children = (
+				05378F542A7C1B0C009C19FF /* PersonalDataModuleBuilder.swift */,
+				05378F552A7C1B0C009C19FF /* PersonalDataPresenter.swift */,
+				05378F562A7C1B0C009C19FF /* PersonalDataRouter.swift */,
+				05378F572A7C1B0C009C19FF /* PersonalDataViewController.swift */,
+				05378F582A7C1B0C009C19FF /* PersonalDataInteractor.swift */,
+			);
+			path = PersonalData;
+			sourceTree = "<group>";
+		};
 		053FB7A32A792113005C4A7A /* Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +141,7 @@
 				05E8F6AC2A78FE8000A08B28 /* Application */,
 				05E8F6AD2A78FEBA00A08B28 /* Domain */,
 				05E8F6AE2A78FEBF00A08B28 /* Helpers */,
+				0574B98C2A79981200EAF14C /* Manager */,
 				05E8F6AF2A78FEC500A08B28 /* Scenes */,
 				05E8F6B02A78FEC900A08B28 /* Supporting */,
 			);
@@ -136,6 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				0574B98F2A799D8D00EAF14C /* SFSkill.swift */,
+				05378F5E2A7C1DEC009C19FF /* SFPersonalData.swift */,
+				05378F602A7C1DF7009C19FF /* SFAbout.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -152,7 +179,8 @@
 		05E8F6AF2A78FEC500A08B28 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				05E8F6B12A78FF3900A08B28 /* Main */,
+				05E8F6B32A78FF4600A08B28 /* View */,
+				05378F532A7C1AFE009C19FF /* PersonalData */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -165,24 +193,6 @@
 				05E8F6A62A78FD8A00A08B28 /* Info.plist */,
 			);
 			path = Supporting;
-			sourceTree = "<group>";
-		};
-		05E8F6B12A78FF3900A08B28 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				0574B98C2A79981200EAF14C /* Manager */,
-				05E8F6B32A78FF4600A08B28 /* View */,
-				05E8F6B22A78FF3F00A08B28 /* Controller */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		05E8F6B22A78FF3F00A08B28 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				0574B9812A79644300EAF14C /* MainViewController.swift */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		05E8F6B32A78FF4600A08B28 /* View */ = {
@@ -297,25 +307,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05378F612A7C1DF7009C19FF /* SFAbout.swift in Sources */,
 				0574B9902A799D8D00EAF14C /* SFSkill.swift in Sources */,
 				053FB7A92A794729005C4A7A /* SFAboutCell.swift in Sources */,
+				05378F5A2A7C1B0C009C19FF /* PersonalDataPresenter.swift in Sources */,
 				053FB7A52A792129005C4A7A /* SFMainCell.swift in Sources */,
 				05E8F6BB2A79006000A08B28 /* UICollectionReusableView + ext.swift in Sources */,
+				05378F592A7C1B0C009C19FF /* PersonalDataModuleBuilder.swift in Sources */,
 				0574B98A2A79970800EAF14C /* SFBiggerButton.swift in Sources */,
 				05E8F6BF2A79009500A08B28 /* UIView + ext.swift in Sources */,
+				05378F5C2A7C1B0C009C19FF /* PersonalDataViewController.swift in Sources */,
 				0574B9882A7996B600EAF14C /* BaseButton.swift in Sources */,
 				05E8F6C72A790C6700A08B28 /* SFHeader.swift in Sources */,
 				05E8F6B82A79001500A08B28 /* BaseCollectionReusableView.swift in Sources */,
+				05378F5F2A7C1DEC009C19FF /* SFPersonalData.swift in Sources */,
 				05E8F6BD2A79008000A08B28 /* UICollectionView + ext.swift in Sources */,
 				05E8F6B62A78FFF000A08B28 /* BaseCollectionViewCell.swift in Sources */,
 				0574B98E2A79986600EAF14C /* SFLocationManager.swift in Sources */,
 				0574B9862A79936E00EAF14C /* UIImagePickerController + ext.swift in Sources */,
 				05E8F6C12A7900BE00A08B28 /* Resources.swift in Sources */,
+				05378F5B2A7C1B0C009C19FF /* PersonalDataRouter.swift in Sources */,
 				053FB7A72A7935B9005C4A7A /* SFSkillCell.swift in Sources */,
 				0574B9842A798D6400EAF14C /* UIImage + ext.swift in Sources */,
 				05E8F6992A78FD8800A08B28 /* AppDelegate.swift in Sources */,
 				05E8F69B2A78FD8800A08B28 /* SceneDelegate.swift in Sources */,
-				0574B9822A79644300EAF14C /* MainViewController.swift in Sources */,
+				05378F5D2A7C1B0C009C19FF /* PersonalDataInteractor.swift in Sources */,
 				05E8F6C42A79066000A08B28 /* BaseCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
