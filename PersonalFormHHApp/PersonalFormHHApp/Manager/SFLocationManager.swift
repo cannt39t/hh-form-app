@@ -14,7 +14,7 @@ final class SFLocationManager: NSObject, ObservableObject {
     static let shared = SFLocationManager()
     @Published var city: String = "Не указан"
     
-    override init() {
+    private override init() {
         super.init()
         
         locationManager.desiredAccuracy = kCLLocationAccuracyBest

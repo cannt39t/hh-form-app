@@ -72,10 +72,10 @@ final class SFMainCell: BaseCollectionViewCell {
         return stack
     }()
     
-    func setup(FIO: String, slogan: String, city: String) {
-        changeCity(city)
-        FIOLabel.text = FIO
-        sloganLabel.text = slogan
+    func setup(data: SFPersonalData) {
+        changeCity(data.city)
+        FIOLabel.text = data.FIO
+        sloganLabel.text = data.slogan
         
         layoutIfNeeded()
     }

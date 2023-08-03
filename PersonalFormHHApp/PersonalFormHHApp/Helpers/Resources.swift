@@ -34,7 +34,7 @@ enum R {
     
     enum Strings {
         enum Headers {
-            static func getHeaderForMainController(section: MainViewController.Sections) -> String {
+            static func getHeaderForMainController(section: PersonalDataViewController.Sections) -> String {
                 switch section {
                     case .skills: return "Мои навыки"
                     case .about: return "О себе"

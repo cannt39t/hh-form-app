@@ -19,7 +19,7 @@ final class SFSkillCell: BaseCollectionViewCell {
     }()
     
     private let deleteButton: SFBiggerButton = {
-        let button = SFBiggerButton(increasePX: 5)
+        let button = SFBiggerButton(increasePX: 8)
         button.setImage(R.Images.cancel, for: .normal)
         return button
     }()
@@ -32,9 +32,9 @@ final class SFSkillCell: BaseCollectionViewCell {
     
     private var handler: () -> Void = {}
     
-    func setup(skill: String, isEditing: Bool, completion: @escaping () -> Void) {
+    func setup(text: String, isEditing: Bool, completion: @escaping () -> Void) {
         handler = completion
-        nameLabel.text = skill
+        nameLabel.text = text
         deleteButton.isHidden = !isEditing
         deleteButton.addTarget(self, action: #selector(didTapOnDeleteButton), for: .touchUpInside)
         layoutIfNeeded()
